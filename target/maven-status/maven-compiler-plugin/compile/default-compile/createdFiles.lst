@@ -1,15 +1,26 @@
 service\RewardService.class
 util\RewardCalculator.class
 exceptions\GlobalExceptionHandler.class
+<<<<<<< HEAD
 main\RewardsProgramApplication.class
 model\RewardResponse.class
 exceptions\CustomerNotFoundException.class
 controller\CustomerController.class
+=======
+exceptions\CustomerNotFoundException.class
+config\JwtAuthenticationFilter.class
+controller\CustomerController.class
+config\SecurityConfig.class
+>>>>>>> aeb808a8a5fb0aecd6bfc047de98b6c9437014c3
 repository\CustomerRepository.class
 repository\TransactionRepository.class
 repository\RewardPointsRepository.class
 model\CustomerTransaction.class
 service\CustomerService.class
 controller\RewardController.class
+<<<<<<< HEAD
+=======
+main\MainApplication.class
+>>>>>>> aeb808a8a5fb0aecd6bfc047de98b6c9437014c3
 model\RewardPoints.class
 model\Customer.class
